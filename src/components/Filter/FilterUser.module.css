@@ -1,0 +1,23 @@
+.labelFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #250a0a;
+}
+
+.labelInput {
+  display: flex;
+  background-color: #fffde9;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  min-width: 150px;
+  padding: 5px 13px;
+  border-top: 1px solid #fffde9;
+  border-left: 1px solid #fffde9;
+  border-right: 1px solid #250a0a;
+  border-bottom: 1px solid #250a0a;
+  color: rgb(87, 89, 11);
+}

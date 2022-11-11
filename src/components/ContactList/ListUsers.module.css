@@ -1,0 +1,37 @@
+.item {
+  list-style: none;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(218, 120, 103);
+  border-bottom: 1px solid #000;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.listItem {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(218, 120, 103);
+}
+
+.buttonItem {
+  padding: 3px 5px;
+  margin-left: 7px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: middle;
+  background-color: #da9494;
+  color: white;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.buttonItem:hover,
+.buttonItem:focus {
+  background-color: #2b0706;
+}
